@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-service" />
+        <module name="Produit-service" />
+        <module name="gatway-service" />
+        <module name="Config-service" />
+        <module name="Categori-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Panier-service" target="17" />
+      <module name="Securite-service" target="17" />
+      <module name="Stock-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Categori-service" options="-parameters" />
+      <module name="Panier-service" options="-parameters" />
+      <module name="Produit-service" options="-parameters" />
+      <module name="Securite-service" options="-parameters" />
+      <module name="Stock-service" options="-parameters" />
+      <module name="eureka-service" options="-parameters" />
+      <module name="gatway-service" options="-parameters" />
+    </option>
+  </component>
+</project>
