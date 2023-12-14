@@ -23,6 +23,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Categori-service" options="-parameters" />
+      <module name="Config-service" options="-parameters" />
       <module name="Panier-service" options="-parameters" />
       <module name="Produit-service" options="-parameters" />
       <module name="Securite-service" options="-parameters" />
